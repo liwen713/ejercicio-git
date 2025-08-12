@@ -1,0 +1,22 @@
+- for
+tiene inicio y fin definido
+for i in range (start, stop, step): #(step es opcional, es 1 por defecto)
+    #bloque de instrucciones 
+for i in range (1, 11):
+    print(i)
+
+- otro tipo de for
+lista=[1, 2, 3]
+for item in lista: 
+    print(item)
+
+- listas.
+miLista=["Ana", "Jose", "Maria"]; #indexada, los elementos tienen un índice que inicia en 0.
+print(miLista[1]) #imprime jose
+miLista.append="Josefina" #agrega elemento al final de la lista
+
+
+- PROGRAMACIÓN ORIENTADA A OBJETOS -
+
+# objeto => cosas del mundo real llevadas al mundo virtual.
+# datos => atributos. características del objeto. incluye métodos (comportamiento)
