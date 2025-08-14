@@ -1,7 +1,6 @@
 from object import Reproductor
 
 def menu():
-
     generos_iniciales = ['Rock', 'Pop', 'Jazz', 'Blues', 'Classical'] #para pasar como parámetros requeridos, porque main llamaba a reproductor sin parámetros pero el constructor tenía 3 parámetros obligatorios.
     artistas_iniciales = ['Queen', 'John Lennon', 'Eagles', 'The Beatles']
     canciones_iniciales = []
@@ -45,4 +44,5 @@ def menu():
             print("="*50)
             input("Presiona 'Enter' para continuar...")
     
+
 menu()
